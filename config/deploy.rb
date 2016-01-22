@@ -1,10 +1,10 @@
 lock '3.4.0'
 
-set :application, '${APP_NAME}'
-set :repo_url, '${GIT_URL}'
+set :application, 'mencure'
+set :repo_url, 'https://github.com/fkagami/mencure'
 
 set :branch, 'master'
-set :deploy_to, '/var/www/app/${APP_NAME}'
+set :deploy_to, '/var/www/app/mencure'
 set :scm, :git
 set :log_level, :debug
 set :pty, true
