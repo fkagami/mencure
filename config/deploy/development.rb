@@ -1,12 +1,12 @@
 set :stage, :development
-role :app, %w{root@${IP_ADDRESS}}
-role :web, %w{root@${IP_ADDRESS}}
-role :db, %w{root@${IP_ADDRESS}}
+role :app, %w{root@${153.126.198.228}}
+role :web, %w{root@${153.126.198.228}}
+role :db, %w{root@${153.126.198.228}}
 
-server '${IP_ADDRESS}',
+server '${153.126.198.228}',
 user: 'root',
 roles: %w{web app db},
 ssh_options: {
  auth_methods: %w(password),
- password: '********'
+ password: 'HAckJPN1()'
 }
