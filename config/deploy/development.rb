@@ -8,5 +8,5 @@ user: 'root',
 roles: %w{web app db},
 ssh_options: {
  auth_methods: %w(password),
- password: 'HAckJPN1()'
+ password: 'HAckJPN1'
 }
